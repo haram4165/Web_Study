@@ -37,6 +37,10 @@ button, button:focus {
     outline: none;
 }
 
+button {
+    background-color: var(--white-color);
+}
+
 /* Header */
 header {
     display: flex;
@@ -186,13 +190,16 @@ body > .info {
     margin-top: var(--padding);
 }
 
+
+
 .UpNext .item img {
     flex: 1 1 35%;
     margin-right: var(--padding);
 }
 
 .UpNext .item .img img {
-    width: 100%;
+    width: 400px;
+    height: 200px;
 }
 
 .UpNext .item .info {
